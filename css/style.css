@@ -5,7 +5,6 @@
 body {
     margin: 0px;
     padding: 0px;
-    padding-bottom: 300px;
 }
 
 header {
@@ -261,4 +260,93 @@ aside .widget_body {
     flex-wrap: wrap;
     flex-direction: row;
     
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+    flex: 1;
+}
+
+.fm1, .fm2, .fm3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.fm1 {
+    background-color: #39aae1;
+}
+
+.fm2 {
+    background-color: #0079c7;
+}
+
+.fm3 {
+    background-color: #2b4c99;
+}
+
+.fm_tittle {
+    font-size: 25px;
+}
+
+.fm_desc {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+
+}
+
+.footer_area {
+    display: flex;
+    flex: 1;
+}
+
+.footer_areaitem {
+    display: flex;
+    flex: 1;
+    color: white;
+    
+    
+}
+
+.flexcolumn {
+    flex-direction: column;
+}
+
+footer .widget_tittle_text {
+    color: white;
+}
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+footer .address {
+    flex-wrap: wrap;
+    font-size: 12px;
+    
+}
+
+.footer_address {
+    margin-top: 25px;
+    display: flex;
+}
+
+.body_address {
+    display: flex;
+    justify-content: space-between;
 }
