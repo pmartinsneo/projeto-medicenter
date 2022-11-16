@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medicenter</title>
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -15,6 +28,11 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
                     <ul>
                         <li><a href="" class="active">HOME</a></li>
                         <li><a href="">HOME</a></li>
@@ -30,34 +48,38 @@
 
     <section id="banner">
         <div class="container column">
-           <div class="banner_headline">
+            <div class="banner_headline">
                 <h1>Top notch experience</h1>
                 <h2>Medicenter is a responsive template for all screen sizes</h2>
-           </div>
-           <div class="banner_options">
-            <div class="banner1">
-                <div class="banner_tittle">Emergency Case</div>
-                <div class="banner_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam blanditiis a saepe, obcaecati distinctio excepturi sint doloremque? Quae quidem eveniet quos saepe nam sed? Quidem et suscipit iusto asperiores.</div>
-                <a href="">Read More</a>
             </div>
-            <div class="banner2">
-                <div class="banner_tittle">Doctors Timetable</div>
-                <div class="banner_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam blanditiis a saepe, obcaecati distinctio excepturi sint doloremque? Quae quidem eveniet quos saepe nam sed? Quidem et suscipit iusto asperiores.</div>
-                <a href="">Read More</a>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_tittle">Emergency Case</div>
+                    <div class="banner_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam
+                        blanditiis a saepe, obcaecati distinctio excepturi sint doloremque? Quae quidem eveniet quos
+                        saepe nam sed? Quidem et suscipit iusto asperiores.</div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_tittle">Doctors Timetable</div>
+                    <div class="banner_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam
+                        blanditiis a saepe, obcaecati distinctio excepturi sint doloremque? Quae quidem eveniet quos
+                        saepe nam sed? Quidem et suscipit iusto asperiores.</div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_tittle">Opening Hours</div>
+                    <div class="banner_hours margin">Monday - Friday
+                        <div class="day_hours">8:00 - 17:00</div>
+                    </div>
+                    <div class="banner_hours">Saturday
+                        <div class="day_hours">9:30 - 17:30</div>
+                    </div>
+                    <div class="banner_hours">Sunday
+                        <div class="day_hours">9:30 - 15:00</div>
+                    </div>
+                </div>
             </div>
-            <div class="banner3">
-                <div class="banner_tittle">Opening Hours</div>
-                <div class="banner_hours margin">Monday - Friday 
-                    <div class="day_hours">8:00 - 17:00</div>
-                </div>
-                <div class="banner_hours">Saturday
-                    <div class="day_hours">9:30 - 17:30</div>
-                </div>
-                <div class="banner_hours">Sunday
-                    <div class="day_hours">9:30 - 15:00</div>
-                </div>
-            </div>
-           </div>
         </div>
     </section>
 
@@ -83,7 +105,9 @@
                                     Lorem ipsum dolor sit amat velum
                                 </div>
                                 <div class="news_resume">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dicta tenetur obcaecati commodi enim, ad ipsam veniam debitis. Temporibus aperiam autem excepturi? Dolorem magni perspiciatis placeat. Eveniet ea in voluptates!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dicta tenetur
+                                    obcaecati commodi enim, ad ipsam veniam debitis. Temporibus aperiam autem excepturi?
+                                    Dolorem magni perspiciatis placeat. Eveniet ea in voluptates!
                                 </div>
                             </a>
                         </article>
@@ -100,7 +124,9 @@
                                     Lorem ipsum dolor sit amat velum
                                 </div>
                                 <div class="news_resume">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dicta tenetur obcaecati commodi enim, ad ipsam veniam debitis. Temporibus aperiam autem excepturi? Dolorem magni perspiciatis placeat. Eveniet ea in voluptates!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dicta tenetur
+                                    obcaecati commodi enim, ad ipsam veniam debitis. Temporibus aperiam autem excepturi?
+                                    Dolorem magni perspiciatis placeat. Eveniet ea in voluptates!
                                 </div>
                             </a>
                         </article>
@@ -117,7 +143,9 @@
                                     Lorem ipsum dolor sit amat velum
                                 </div>
                                 <div class="news_resume">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dicta tenetur obcaecati commodi enim, ad ipsam veniam debitis. Temporibus aperiam autem excepturi? Dolorem magni perspiciatis placeat. Eveniet ea in voluptates!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dicta tenetur
+                                    obcaecati commodi enim, ad ipsam veniam debitis. Temporibus aperiam autem excepturi?
+                                    Dolorem magni perspiciatis placeat. Eveniet ea in voluptates!
                                 </div>
                             </a>
                         </article>
@@ -134,11 +162,13 @@
                                     Lorem ipsum dolor sit amat velum
                                 </div>
                                 <div class="news_resume">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dicta tenetur obcaecati commodi enim, ad ipsam veniam debitis. Temporibus aperiam autem excepturi? Dolorem magni perspiciatis placeat. Eveniet ea in voluptates!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dicta tenetur
+                                    obcaecati commodi enim, ad ipsam veniam debitis. Temporibus aperiam autem excepturi?
+                                    Dolorem magni perspiciatis placeat. Eveniet ea in voluptates!
                                 </div>
                             </a>
                         </article>
-                    </div >
+                    </div>
                 </div>
             </section>
 
@@ -202,24 +232,25 @@
                             <div class="widget_tittle_bar"></div>
                         </div>
                         <div class="widget_body address">
-                            <div class="body_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt nemo soluta eligendi.</div>
+                            <div class="body_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
 
                             <div class="footer_address">
-                                <div class="body_address">Medicenter Clinic</div>
-                                <div class="body_address">33 Farfane Street
-                                    <div class="body_number">+123 655 655</div>
+                                <div class="body_address">
+                                    Medicenter Clinic <br>
+                                    33 Farfane Street <br>
+                                    Kellor East <br>
+                                    VIC 3033, Austrália <br>
                                 </div>
-                                <div class="body_address">Kellor East
-                                    <div class="body_number">+123 755 755</div>
-                                </div>
-                                <div class="body_address">VIC 3033, Austrália
-                                    <div class="body_number"><a href="mailto:medicenter@mail.com">medicenter@mail.com</a></div>
+                                <div class="body_number">
+                                    +123 655 655 <br>
+                                    +123 755 755 <br>
+                                    <a href="mailto:medicenter@mail.com">medicenter@mail.com</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="footer_areaitem">
                     <div class="widget">
                         <div class="widget_tittle">
@@ -227,11 +258,11 @@
                             <div class="widget_tittle_bar"></div>
                         </div>
                         <div class="widget_body">
-                            
+
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="footer_areaitem">
                     <div class="widget">
                         <div class="widget_tittle">
@@ -239,7 +270,7 @@
                             <div class="widget_tittle_bar"></div>
                         </div>
                         <div class="widget_body">
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam hic, quisquam et perspiciatis dolorum deserunt dolor, vero repellat doloribus a, rerum architecto est repudiandae maxime dolores consectetur ex enim fugit?
+                            ...
                         </div>
                     </div>
 
@@ -253,4 +284,5 @@
         </div>
     </footer>
 </body>
+
 </html>
